@@ -1,13 +1,31 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/7bed30e30c.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7bed30e30c.js" crossorigin="anonymous">
+		</script>
+        <style>
+            @media only screen and (max-width: 600px)
+            {
+                .container {
+                padding: 10px; 
+            }
+            .logo {
+                width: 100px; 
+            }
+            .tab-links {
+                font-size: 14px; 
+            }
+            }
+        </style>
     </head>
     <body>
+        <div class="paper-flow">
+            <div class="paper"></div>
+          </div>    
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src="harshalogoo.png" class="logo">
+                    <img src="HARSHAA2.png" class="logo">
                     <ul>
                         <li><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
@@ -22,20 +40,22 @@
                 </div>
             </div>
         </div>
+        
 <!-- -------------about----------->
         <div id="about">
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                       <img src="h1.jpeg" class='hh'>
+                       <img src="" class='hh'>
                     </div>
                     <div class="about-col-1">
                         <h1 class="sub-title">About me</h1>
                         <P>
-                            I'm a Fourth-year Information Technology student at <span> RVR & JC College of Engineering </span>in Guntur, 
-                            with a strong academic foundation and a GPA of 7.67 My passion for understanding complex patterns and solving problems led me to explore the fascinating world of machine learning.
-                            I am eager to apply my knowledge and skills in a dynamic environment, contributing to innovative projects and solutions.
-                             With a focus on continuous learning and growth, I am confident in my ability to excel in a challenging role within a leading MNC.
+                            I'M STUDING 4TH YEAR IN INFOMARTION TECHNOLOGY IN <SPAN>R.V.R & J.C COLLEGE OF ENGINEERING</SPAN> IN GUNTUR 
+                            WITH GPA=7.67 AND PRESENT I LIVE IN  GUNTUR FOR MY EDUCATION PURPOASE AND MY DREAM IS TO LEARN MACHINE LEARNING COURSES 
+                            JOIN IN MNC COMPANY WHERE I CAN SATISFY MY SELF WHILE I AM WORKING WITH COMPANY AND I AM FRIENDLY WITH ALL AMONG THEM
+                            WHO WAS PRESENT WITH ME TILL NOW WHILE COMING TO WORK THE BAD-HABIT I HAD IN MY LIFE IS I WANT TO COMPLETE THE GIVEN TASK 
+                            WITH IN 2 TO 3 DAYS I WILL WORK FOR IT DAILY TO GIVE THE BETTER OUTCOME WHICH WON'T GIVEN BY ANYONE.....
                         </P>
                         <div class="tab-titles">
                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
@@ -43,11 +63,11 @@
                         </div>
                         <div class="tab-contents active-tab"id="skills">
                             <ul>
-                                <li><i class="fa-brands fa-html5 fa-fade"></i> <span>HTML</span><br>Intermediate Level</li>
+                                <li><i class="fa-brands fa-html5 fa-fade"></i> <span>HTML-5</span><br>Intermediate Level</li>
                                 <li><i class="fa-brands fa-java fa-fade"></i> <span>JAVA</span><br>Intermediate level</li>
                                 <li><i class="fa-solid fa-circle-nodes fa-fade"></i> <span>Data Structures</span><br>Intermediate Level</li>
-                                <li><i class="fa-solid fa-c fa-fade"></i> <span>-Program</span><br>Above Intermediate Level</li>
-                                <li><i class="fa-solid fa-gears fa-spin-pulse"></i> <span>Machine Learning</span><br>Basic Level</li>
+                                <li><i class="fa-solid fa-c fa-fade"></i> <span>C-Language</span><br>Above Intermediate Level</li>
+                                <li><i class="fa-solid fa-gears fa-spin-pulse"></i> <span>Meachine Learning</span><br>Basic Level</li>
                             </ul>
                         </div>
                         <div class="tab-contents"id="educatiion">
@@ -63,20 +83,19 @@
         </div>
 <!-- -------------Project----------->
         <div id="project">
-            <div class="container">
-                <h1 class="sub-title" >Projects</h1>
+            <div class="containers">
+                <h1 class="sub-title" >Projet Details</h1>
                 <div class="project-list">
                     <div class="project-box">
                         <i class="fa-solid fa-globe fa-fade"></i>
                         <h2>Personal Voice Assistance</h2>
                         <p>PVA is all developed by ML AND NLP</p>
-                        <a href="pva doc.html">Learn</a>
+                        <a href="PVA DOC.html">Learn More</a>
                     </div>
                     <div class="project-box">
                         <i class="fa-solid fa-rocket fa-beat-fade"></i>
                         <h2>Fraud Detection using ML</h2>
-                        <p>Credit caard deatils While fraud detection Using 
-                            Logistic Regression and using excel files</p>
+                        <p>Credit card Details While fraud detection Using Logistic Regression and using excel files</p>
                         <a href="#">Learn More</a>
                     </div>
                         <div class="project-box">
@@ -85,16 +104,16 @@
                             <p>Person who is elligible for Loan </p>
                             <a href="#">Learn More</a>
                         </div>
-                        <div class="project-box">
-                            <i class="fa-regular fa-user"></i>
-                            <h2>Personal Dashboard </h2>
-                            <p> Created using HTML,CSS</p>
+						<div class="project-box">
+                            <i class="fa-solid fa-check fa-fade"></i>
+                            <h2>Login Page </h2>
+                            <p> Person Private DashBoard Page </p>
                             <a href="#">Learn More</a>
                         </div>
-                        <div class="project-box">
-                            <i class="fa-regular fa-lock"></i>
+						<div class="project-box">
+                            <i class="fa-solid fa-check fa-fade"></i>
                             <h2>Password Strength </h2>
-                            <p> </p>
+                            <p> Checking the Password how long it takes to break </p>
                             <a href="#">Learn More</a>
                         </div>
                     </div>
@@ -105,7 +124,8 @@
         <div id="certificate" class="certificate-section">
             <div class="container">
                 <div class="sub-title">
-                    <h1>Certificates</h1>
+                    <h1>Certification</h1>
+                    <!-- <h1>_______________________</h1> -->
                     <div class="work-title">
                         <div class="work">
                             <a href="C:\Users\gbhar\Desktop\New folder\New folder" class="certificate-link"></a>
@@ -170,36 +190,16 @@
                         </div>
                         <div class="work">
                             <img src="Aicte cohart-6.jpg">
-                            <h6>Android Developer</h6>
+                            <h6>Aicte Android Developer</h6>
                         </div>
                         <div class="work">
                             <img src="AICTE Cloud.jpg">
-                            <h6>Cloud Computing</h6>
+                            <h6>Aicte Cloud Computing</h6>
                         </div>
-						<div class="work">
-							<img src="coh-8.jpg">
-							<h6>Data Engineering</h6>
-						</div>
-                        <div class="work">
-                            <img src="TCS.jpg">
-                            <h6>CyberSuraksha.</h6>
-                        </div>
-                        <div class="work">
-                            <img src="Edureka - Internship Certificate.jpg">
-                            <h6>Edureka</h6>
-                        </div>
-                            <div class="work">
-                                <img src="Coursera CS FINAL.jpg">
-                                <h6>Cybersecurity Completion Certificate</h6>
-							</div>
-                            <div class="work">
-                                <img src="NextInternship.jpg">
-                                <h6>Internship Completion Certificate</h6>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- -----------------contact---------------- -->
         <div id="contact">
             <div class="container">
@@ -252,7 +252,6 @@
                 selectedTab.classList.add("active-tab");
             }
         </script>
-<!-- -----------------------Google exel linking------------- -->
         <script>
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzPjVt3eEBQN70yvCE6-yE999Eom_-dVU-saDWQS6dso-jWZkBKN4IxNy0Okt5TaqHR/exec'
             const form = document.forms['submit-to-google-sheet']
